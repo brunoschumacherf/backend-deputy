@@ -14,15 +14,15 @@ Para rodar tudo corretamente, siga os passos abaixo.
 
 Clone os dois repositórios do projeto:
 
-* **Backend (Rails):** \[https://github.com/brunoschumacherf/backend-deputy]
-* **Frontend (React):** \[https://github.com/brunoschumacherf/front-end-deputy]
+* **Backend (Rails):** [https://github.com/brunoschumacherf/backend-deputy](https://github.com/brunoschumacherf/backend-deputy)
+* **Frontend (React):** [https://github.com/brunoschumacherf/front-end-deputy](https://github.com/brunoschumacherf/front-end-deputy)
 
 ## 2. Rodando o backend (Rails)
 
 1. Acesse a pasta do backend:
 
    ```bash
-   cd nome-do-repositorio-backend
+   cd backend-deputy
    ```
 
 2. Instale as dependências:
@@ -50,7 +50,7 @@ O backend estará rodando em: [http://localhost:3000](http://localhost:3000)
 1. Acesse a pasta do frontend:
 
    ```bash
-   cd nome-do-repositorio-frontend
+   cd front-end-deputy
    ```
 
 2. Instale as dependências:
@@ -69,7 +69,4 @@ O frontend estará rodando em: [http://localhost:3001](http://localhost:3001)
 
 ## 🚀 Pronto!
 
-Agora o frontend estará se comunicando com a API Rails. Lembre-se de garantir que o backend esteja rodando antes de usar o frontend.
-
----
-
+Agora o frontend estará se comunicando com a API Rails. Lembre-se de garantir que o backend 

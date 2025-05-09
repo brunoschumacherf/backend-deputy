@@ -1,26 +1,75 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+---
 
-Things you may want to cover:
+# Como rodar o projeto Rails + React
 
-* Ruby version
+Este projeto é dividido em duas partes:
 
-* System dependencies
+* **Backend:** Rails API
+* **Frontend:** React
 
-* Configuration
+Para rodar tudo corretamente, siga os passos abaixo.
 
-* Database creation
+## 1. Clonando os repositórios
 
-* Database initialization
+Clone os dois repositórios do projeto:
 
-* How to run the test suite
+* **Backend (Rails):** \[https://github.com/brunoschumacherf/backend-deputy]
+* **Frontend (React):** \[https://github.com/brunoschumacherf/front-end-deputy]
 
-* Services (job queues, cache servers, search engines, etc.)
+## 2. Rodando o backend (Rails)
 
-* Deployment instructions
+1. Acesse a pasta do backend:
 
-* ...
-# backend-deputy
-# backend-deputy
+   ```bash
+   cd nome-do-repositorio-backend
+   ```
+
+2. Instale as dependências:
+
+   ```bash
+   bundle install
+   ```
+
+3. Configure o banco de dados:
+
+   ```bash
+   rails db:create db:migrate
+   ```
+
+4. Rode o servidor Rails (na porta 3000):
+
+   ```bash
+   rails s -p 3000
+   ```
+
+O backend estará rodando em: [http://localhost:3000](http://localhost:3000)
+
+## 3. Rodando o frontend (React)
+
+1. Acesse a pasta do frontend:
+
+   ```bash
+   cd nome-do-repositorio-frontend
+   ```
+
+2. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+3. Rode o servidor React (na porta 3001):
+
+   ```bash
+   npm start
+   ```
+
+O frontend estará rodando em: [http://localhost:3001](http://localhost:3001)
+
+## 🚀 Pronto!
+
+Agora o frontend estará se comunicando com a API Rails. Lembre-se de garantir que o backend esteja rodando antes de usar o frontend.
+
+---
+
